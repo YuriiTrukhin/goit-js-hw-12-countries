@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+.input {
+  margin: 35px auto;
+}
+.cont-list {
+  text-emphasis: center;
+  display: inline-flex;
+}
+.capital {
+  text-align: left;
+}
+ul {
+  padding: 0%;
+  list-style-type: none;
+}
+.pnotify-container {
+  top: 0;
+  left: -250px;
+  display: block;
+  background-color: lightgray;
+  text-align: center;
+}
+img {
+  margin-left: 15px;
+}
