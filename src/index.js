@@ -9,8 +9,7 @@ const input = document.querySelector(".input");
 const ul = document.querySelector(".list");
 
 const debaunce = require("lodash.debounce");
-const countries = function (e) {
-        
+const countries = function (e) {        
     e.target.value.length >= 1 ? fetchCountries(e.target.value)
             .then((array) => {
                 if (array.length >= 10) {                  
